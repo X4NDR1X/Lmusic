@@ -120,25 +120,6 @@ CREATE TABLE `usuario` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
--- Despejando dados para a tabela `usuario`
---
-
-INSERT INTO `usuario` (`idUsuario`, `nome`, `senha`, `tipoUsuario`) VALUES
-(15, 'isa', '160414', 0),
-(16, 'lucas', '030608', 0),
-(17, 'adm', '0000', 1),
-(18, 'car', '123', 1),
-(19, 'Flora', '123', 0),
-(20, 'candido', '1234', 0),
-(21, 'anaku', '23092007ana', 0),
-(22, 'arthur_hein', '123456', 0),
-(23, 'lg', '2', 0);
-
---
--- Índices para tabelas despejadas
---
-
---
 -- Índices de tabela `faleconosco`
 --
 ALTER TABLE `faleconosco`
