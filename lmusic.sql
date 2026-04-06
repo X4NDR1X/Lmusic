@@ -45,14 +45,6 @@ CREATE TABLE `faleconosco` (
 -- Despejando dados para a tabela `faleconosco`
 --
 
-INSERT INTO `faleconosco` (`idFaleConosco`, `Nome`, `Email`, `Duvida`, `Usuario_idUsuario`) VALUES
-(3, 'lucas', 'lucasaferreira5797@gmail.com', 'Achei muito paia que o site é do palmeiras e não do corinthians', 0),
-(4, 'candido', 'candido@gmail.com', 'meu site é melhor', 0),
-(5, 'anaku', 'anackunzk@gmail.com', 'acrescenta born on to die da lana del rey', 0),
-(6, 'lucas', 'lucas@gmail.com', 'henrique', 0),
-(7, 'adm', 'ADM@GMAIL', 'Teste', 0),
-(8, 'lg', 'lg@lg.com', 'teste', 0),
-(9, 'lg', 'lg@lg.com', 'Teste2', 0);
 
 -- --------------------------------------------------------
 
@@ -70,16 +62,6 @@ CREATE TABLE `interesse` (
 -- Despejando dados para a tabela `interesse`
 --
 
-INSERT INTO `interesse` (`idInteresse`, `idUsuario`, `idServico`) VALUES
-(19, 16, 30),
-(21, 16, 22),
-(23, 16, 13),
-(25, 20, 10),
-(26, 20, 28),
-(27, 21, 27),
-(28, 21, 10),
-(29, 16, 27),
-(31, 16, 24);
 
 -- --------------------------------------------------------
 
