@@ -1,13 +1,27 @@
-# Lmusic
-Sistema de Gerenciamento de Biblioteca Musical: 
-Aplicação web para catálogo de músicas utilizando PHP para a lógica de servidor e MySQL para o armazenamento de dados. O sistema permite cadastrar artistas, álbuns e gêneros, com interface estruturada em HTML5 e estilizada com CSS3.
+# LMusic - Sistema de Gestão Musical
 
-Front-end: HTML5 e CSS3 para interface responsiva.
+Projeto desenvolvido como parte do curso **Técnico em Informática**, integrando conceitos de Desenvolvimento Web, Banco de Dados e Design Gráfico.
 
-Back-end: PHP para processamento de dados e lógica de negócio.
+## Sobre o Projeto
+O LMusic é uma aplicação Web Full Stack para catálogo e gestão de álbuns musicais. O sistema permite a interação com o utilizador através de cadastro, login e gestão de conteúdos.
 
-Banco de Dados: MySQL (SQL) para persistência de informações.
+## Tecnologias Utilizadas
+- **Front-end:** HTML5, CSS3 e JavaScript.
+- **Back-end:** PHP 8.2 (Lógica de servidor e processamento de formulários).
+- **Banco de Dados:** MySQL/MariaDB (Persistência de dados).
+- **Design:** Conceitos de Web Design aplicados para interface responsiva.
 
-Implementação de operações CRUD (Create, Read, Update, Delete) integradas a um banco de dados MySQL, garantindo a gestão dinâmica de conteúdos do site.
+## Funcionalidades (CRUD)
+- **Autenticação:** Sistema de login e registo de utilizadores.
+- **Gestão de Conteúdo:** Upload, edição e remoção de álbuns/músicas.
+- **Interatividade:** Área de "Fale Conosco" e sistema de marcação de interesses/favoritos.
+- **Banco de Dados:** Scripts SQL inclusos para replicação do ambiente.
 
-Realizado para as diciplinas de Programação para Internet e Web Design
+## Como executar
+1. Clone o repositório.
+2. Importe o arquivo `lmusic.sql` no seu servidor MySQL (ex: XAMPP).
+3. Configure as credenciais no arquivo de conexão PHP (se necessário).
+4. Acesse via `localhost/lmusic`.
+
+---
+Desenvolvido durante os módulos de Programação para Internet e Web Design.
